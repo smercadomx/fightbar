@@ -1,18 +1,22 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import FightCard from './components/FightCard';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div>
+        <FightCard
+          title="Genady Golovkin vs Daniel Jacobs"
+          date="March 11, 2017 10PM/7PM ET/PT"
+          isPpv={true}
+          firstFighterImage="http://placehold.it/80x80"
+          secondFighterImage="http://placehold.it/80x80" />
+          <FightCard
+            title="Saul Alvarez vs Julio Cesar Chavez Jr."
+            date="May 06, 2017 10PM/7PM ET/PT"
+            isPpv={false}
+            firstFighterImage="http://placehold.it/80x80"
+            secondFighterImage="http://placehold.it/80x80" />
       </div>
     );
   }
