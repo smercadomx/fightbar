@@ -1,4 +1,4 @@
-.FightCard {
+.c-fight-card {
   line-height: 20px;
   padding: 5px;
   margin-bottom: 10px;
@@ -7,17 +7,17 @@
   font-size: 0.8em;
 }
 
-.FightCard-images {
+.c-fight-card__images {
   display: flex;
   justify-content: space-between;
 }
 
-.FightCard-title {
+.c-fight-card__title {
   margin-top: 5px;
   font-weight: bold;
 }
 
-.FightCard-ppv {
+.c-fight-card__ppv {
   background-color: red;
   color: #FFF;
   border-radius: 3px;

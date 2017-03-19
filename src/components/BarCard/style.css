@@ -1,4 +1,4 @@
-.BarCard {
+.c-bar-card {
   line-height: 20px;
   padding: 5px;
   margin-bottom: 10px;
@@ -8,19 +8,20 @@
   font-size: 0.8em;
 }
 
-.BarCard-name {
-  font-weight: bold;
-}
-
-.BarCard-info {
+.c-bar-card__info {
   flex: 1;
   padding-left: 10px;
 }
 
-.BarCard-distance {
+.c-bar-card__name {
+  font-weight: bold;
+}
+
+
+.c-bar-card__distance {
   color: gray;
 }
 
-.BarCard-cover {
+.c-bar-card__cover {
   align-self: flex-end;
 }

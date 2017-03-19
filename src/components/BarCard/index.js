@@ -4,15 +4,15 @@ import './style.css';
 class BarCard extends Component {
   render() {
     return (
-      <div className="BarCard">
+      <div className="c-bar-card">
         <img src={this.props.image} />
-        <div className="BarCard-info">
-          <div className="BarCard-name">{this.props.name}</div>
-          <div className="BarCard-address">{this.props.address}</div>
-          <div className="BarCard-distance">{this.props.distance}</div>
+        <div className="c-bar-card__info">
+          <div className="c-bar-card__name">{this.props.name}</div>
+          <div className="c-bar-card__address">{this.props.address}</div>
+          <div className="c-bar-card__distance">{this.props.distance}</div>
         </div>
         {this.props.cover &&
-          <div className="BarCard-cover">${this.props.cover}</div>
+          <div className="c-bar-card__cover">${this.props.cover}</div>
         }
       </div>
     );
