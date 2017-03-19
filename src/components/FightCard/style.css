@@ -1,9 +1,10 @@
 .FightCard {
-  line-height: 26px;
+  line-height: 20px;
   padding: 5px;
   margin-bottom: 10px;
   background-color: #FFF;
   border-bottom: 1px solid gray;
+  font-size: 0.8em;
 }
 
 .FightCard-images {
@@ -11,10 +12,16 @@
   justify-content: space-between;
 }
 
+.FightCard-title {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
 .FightCard-ppv {
   background-color: red;
   color: #FFF;
   border-radius: 3px;
-  padding: 5px;
+  padding: 2px 5px;
   display: inline-block;
+  font-size: 10px;
 }
