@@ -1,0 +1,14 @@
+.c-bar-map {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
+.c-bar-map__bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-bar-map__map {
+  flex: 1;
+}

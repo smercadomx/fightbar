@@ -8,15 +8,14 @@
   font-size: 0.8em;
 }
 
+.c-bar-card__image {
+  max-height: 100px;
+}
+
 .c-bar-card__info {
   flex: 1;
   padding-left: 10px;
 }
-
-.c-bar-card__name {
-  font-weight: bold;
-}
-
 
 .c-bar-card__distance {
   color: gray;
