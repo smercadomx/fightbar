@@ -5,6 +5,7 @@
   background-color: #FFF;
   border-bottom: 1px solid gray;
   font-size: 0.8em;
+  cursor: pointer;
 }
 
 .c-fight-card__images {
